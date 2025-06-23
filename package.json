@@ -1,0 +1,17 @@
+{
+  "name": "cosmolaser-content-gap",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "cd cosmolaser-ui && npm run dev",
+    "build": "cd cosmolaser-ui && npm run build",
+    "start": "cd cosmolaser-ui && npm run start",
+    "lint": "cd cosmolaser-ui && npm run lint"
+  },
+  "dependencies": {
+    "@upstash/redis": "^1.35.0",
+    "@vercel/kv": "^3.0.0",
+    "@vercel/node": "^5.3.0",
+    "exceljs": "^4.4.0",
+    "lucide-react": "^0.522.0"
+  }
+}
