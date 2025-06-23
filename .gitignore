@@ -57,6 +57,7 @@ cosmolaser-ui/out/
 
 # Vercel
 .vercel
+!vercel.json
 
 # Temporary files
 *.tmp
