@@ -1,12 +1,7 @@
 {
-  "buildCommand": "cd cosmolaser-ui && npm run build",
-  "outputDirectory": "cosmolaser-ui/.next",
-  "installCommand": "cd cosmolaser-ui && npm install",
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "installCommand": "npm install",
   "framework": "nextjs",
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/cosmolaser-ui/$1"
-    }
-  ]
+  "rootDirectory": "cosmolaser-ui"
 }
