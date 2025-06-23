@@ -1,85 +1,41 @@
-# Dependencies
-node_modules/
-cosmolaser-ui/node_modules/
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
-venv/
-env/
-ENV/
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
 
-# IDEs
-.vscode/
-.idea/
-*.swp
-*.swo
+# testing
+/coverage
 
-# OS
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
 .DS_Store
-Thumbs.db
+*.pem
 
-# Logs
-*.log
+# debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.pnpm-debug.log*
 
-# Next.js
-cosmolaser-ui/.next/
-cosmolaser-ui/out/
+# env files (can opt-in for committing if needed)
+.env*
 
-# Environment variables
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# Vercel
+# vercel
 .vercel
-!vercel.json
 
-# Temporary files
-*.tmp
-*.temp
-
-# Data files
-*.xlsx
-*.csv
-*.json
-!package.json
-!package-lock.json
-!cosmolaser-ui/package.json
-!cosmolaser-ui/package-lock.json
-!components.json
-!tsconfig.json
-!tailwind.config.js
-!next.config.ts
-!postcss.config.mjs
-!eslint.config.mjs
-!cosmolaser-ui/components.json
-!cosmolaser-ui/tsconfig.json
-!cosmolaser-ui/tailwind.config.js
-!cosmolaser-ui/next.config.ts
-!cosmolaser-ui/postcss.config.mjs
-!cosmolaser-ui/eslint.config.mjs
+# typescript
+*.tsbuildinfo
+next-env.d.ts

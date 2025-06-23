@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install:*)",
+      "Bash(python3:*)",
+      "Bash(npx create-next-app:*)",
+      "Bash(ls:*)",
+      "Bash(mkdir:*)",
+      "Bash(git branch:*)",
+      "Bash(npm run build:*)",
+      "Bash(gh:*)",
+      "Bash(npx shadcn@latest add:*)",
+      "Bash(npm run dev:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(rm:*)",
+      "Bash(git clone:*)",
+      "Bash(cp:*)",
+      "Bash(grep:*)",
+      "Bash(git rm:*)",
+      "Bash(true)"
+    ],
+    "deny": []
+  }
+}
