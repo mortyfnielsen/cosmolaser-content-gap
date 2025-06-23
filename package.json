@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "cd cosmolaser-ui && npm run dev",
-    "build": "cd cosmolaser-ui && npm run build",
+    "build": "cd cosmolaser-ui && npm install && npm run build",
     "start": "cd cosmolaser-ui && npm run start",
-    "lint": "cd cosmolaser-ui && npm run lint"
+    "lint": "cd cosmolaser-ui && npm run lint",
+    "postinstall": "cd cosmolaser-ui && npm install"
   },
   "dependencies": {
     "@upstash/redis": "^1.35.0",
